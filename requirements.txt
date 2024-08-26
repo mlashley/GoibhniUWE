@@ -2,9 +2,9 @@ base58==2.1.1
 Django==4.1.2
 django_markdown_view==0.0.5
 docker==5.0.0
-GitPython==3.1.29
+GitPython==3.1.41
 Markdown==3.3.4
-networkx==2.5
+networkx==2.6
 plotly==4.14.3
 psutil==5.8.0
 pyshark==0.5.3
@@ -15,3 +15,4 @@ urllib3==1.26.5
 django-markdownify==0.9.2
 numpy
 scipy
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
